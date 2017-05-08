@@ -7,10 +7,10 @@ and open the template in the editor.
 
 <?php
 
-$username1="mydb2920dp";
-$password="fe6caj";
-$database="mydb2920";
-$url = "danu6.it.nuigalway.ie";
+$username1="XXXXXXX";
+$password="XXXXXXX";
+$database="XXXXXXX";
+$url = "XXXXXXX";
 
 
 
