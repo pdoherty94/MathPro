@@ -1,11 +1,11 @@
 <?php
 
-$username="mydb2920dp";
-$password="fe6caj";
-$database="mydb2920";
-$url = "danu6.it.nuigalway.ie";
+$username1="XXXXXXX";
+$password="XXXXXXX";
+$database="XXXXXXX";
+$url = "XXXXXXX";
 // Create connection
-$conn = new mysqli($url, $username, $password, $database);
+$conn = new mysqli($url, $username1, $password, $database);
 // Check connection
 if ($conn->connect_error) {
 	die("Connection failed: " . $conn->connect_error);
