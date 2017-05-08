@@ -1,10 +1,11 @@
 
+
 <?php
 
-$username1="XXXXXXX";
-$password="XXXXXXX";
-$database="XXXXXXX";
-$url = "XXXXXXXX";
+$username1="mydb2920dp";
+$password="fe6caj";
+$database="mydb2920";
+$url = "danu6.it.nuigalway.ie";
 
 
 
@@ -15,18 +16,17 @@ $email  = $_POST['email'];
 
 
 // Create connection
-mysql_connect($url, $username1, $password);
+$con = mysqli_connect($url, $username1, $password, $database);
 // Check connection
 
-@mysql_select_db($database) or die( "Unable to select database");
+//@mysql_select_db($database) or die( "Unable to select database");
 
 
-
-$sql = "INSERT INTO users (username,user_password,name,email) VALUES ('$username','$user_password','$name','$email')";
-
-mysql_query($sql);
-
-		mysql_close();
+$query = "INSERT INTO users (username,user_password,name,email) VALUES ('$username','$user_password','$name','$email')";
+//
+mysqli_query($con, $query);
+//
+		mysqli_close($con);
 echo "You successfully created a new user";
                 ?>
 

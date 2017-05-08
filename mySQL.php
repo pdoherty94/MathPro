@@ -1,9 +1,9 @@
 <?php
 
-$username="XXXXXXX";
-$password="XXXXXXX";
-$database="XXXXXXXX";
-$url = "XXXXXXXXX";
+$username="mydb2920dp";
+$password="fe6caj";
+$database="mydb2920";
+$url = "danu6.it.nuigalway.ie";
 // Create connection
 $conn = new mysqli($url, $username, $password, $database);
 // Check connection

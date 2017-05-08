@@ -18,12 +18,9 @@ $password="fe6caj";
 $database="mydb2920";
 $url = "danu6.it.nuigalway.ie";
 
-
-
-
 // Create connection
 $conn = new mysqli($url, $username1, $password, $database);
-// Check connection
+
 
 $sql = "Select Question from Questions where Q_ID = 1";
 
